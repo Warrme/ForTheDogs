@@ -4245,13 +4245,14 @@ input[type="button"].btn-block {
 }
 
 .nav {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
+	margin-left: 0px;
 }
 
 .nav-link {
@@ -4262,8 +4263,8 @@ input[type="button"].btn-block {
 	padding-bottom: 0.5rem;
 	height: 38px;
 	margin-top: 0px;
-	margin-left: -18px;
-	margin-right: 25px;
+	margin-left: -40px;
+	margin-right: 50px;
 	width: 95px;
 	min-width: 95px;
 	max-width: 150px;
@@ -4539,13 +4540,6 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 992px) {
-  .navbar-expand-lg {
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-  }
   .navbar-expand-lg .navbar-nav {
     -ms-flex-direction: row;
     flex-direction: row;
